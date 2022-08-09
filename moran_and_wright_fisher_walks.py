@@ -102,7 +102,7 @@ def moran_wf_walk(landscape, genotype_space, N, L, rep, walk):
     return mean_l, mean_h, SD_h
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     # Working example:
 
     # Arguments

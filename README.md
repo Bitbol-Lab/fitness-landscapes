@@ -9,7 +9,7 @@ git clone git@github.com:Bitbol-Lab/fitness-landscapes.git
 ``` 
  
 
-Executing the following line runs a working example written in the script:
+Executing the following line runs a working example:
 ```bash
 python moran_and_wright_fisher_walks.py
 ``` 

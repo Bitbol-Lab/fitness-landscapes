@@ -3,8 +3,7 @@
 
 import numpy as np
 from itertools import product
-from decimal import*
-
+from decimal import *
 
 
 def moran_wf_walk(landscape, genotype_space, N, L, rep, walk):
@@ -102,29 +101,31 @@ def moran_wf_walk(landscape, genotype_space, N, L, rep, walk):
 
     return mean_l, mean_h, SD_h
 
-# Working example:
 
-# Arguments
-L = 3
-landscape = {(0, 0, 0): 1.554, (0, 0, 1): 1.674, (0, 1, 0): 2.051, (0, 1, 1): 1.181,
-             (1, 0, 0): 2.332, (1, 0, 1): 2.452, (1, 1, 0): 2.004, (1, 1, 1): 1.134}
-genotype_space = list(product(range(2), repeat=L))
-N = 100000
-rep = 100
+if __name__ == "main":
+    # Working example:
 
-# Simulation
-moran_simulation = moran_wf_walk(landscape, genotype_space, N, L, rep, 'moran')
-wright_fisher_simulation = moran_wf_walk(landscape, genotype_space, N, L, rep, 'w-f')
+    # Arguments
+    L = 3
+    landscape = {(0, 0, 0): 1.554, (0, 0, 1): 1.674, (0, 1, 0): 2.051, (0, 1, 1): 1.181,
+                 (1, 0, 0): 2.332, (1, 0, 1): 2.452, (1, 1, 0): 2.004, (1, 1, 1): 1.134}
+    genotype_space = list(product(range(2), repeat=L))
+    N = 100000
+    rep = 100
 
-# Outcome
-print('Moran walk simulation:')
-print('Mean length = ' + str(moran_simulation[0]))
-print('Mean height = ' + str(moran_simulation[1]))
-print('SD height = ' + str(moran_simulation[2]))
+    # Simulation
+    moran_simulation = moran_wf_walk(landscape, genotype_space, N, L, rep, 'moran')
+    wright_fisher_simulation = moran_wf_walk(landscape, genotype_space, N, L, rep, 'w-f')
 
-print('')
+    # Outcome
+    print('Moran walk simulation:')
+    print('Mean length = ' + str(moran_simulation[0]))
+    print('Mean height = ' + str(moran_simulation[1]))
+    print('SD height = ' + str(moran_simulation[2]))
 
-print('Wright-Fisher walk simulation:')
-print('Mean length = ' + str(wright_fisher_simulation[0]))
-print('Mean height = ' + str(wright_fisher_simulation[1]))
-print('SD height = ' + str(wright_fisher_simulation[2]))
+    print('')
+
+    print('Wright-Fisher walk simulation:')
+    print('Mean length = ' + str(wright_fisher_simulation[0]))
+    print('Mean height = ' + str(wright_fisher_simulation[1]))
+    print('SD height = ' + str(wright_fisher_simulation[2]))

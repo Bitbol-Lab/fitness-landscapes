@@ -77,8 +77,8 @@ def moran_wf_walk(landscape, genotype_space, N, L, rep, walk):
                     break
 
                 # Here, we normalize the transition probabilities towards the neighbors.
-                # If you don't want to avoid rejects and make l the number of mutation events (fixing or not),
-                # denoted by t in the paper, comment out the line below and replace it by:
+                # To compute the number of mutation events (fixing or not), denoted by t in the paper,
+                # instead of the number of fixations l, the line below should be commented out and replaced by:
                 # neighbors.append(wt)
                 # transition_proba.append(1-np.sum(transition_proba))
                 # neighbor_fitnesses.append(f_wt)

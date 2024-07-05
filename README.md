@@ -24,12 +24,19 @@ python star_walk.py
 
 ## Requirements ##
 
-In order to use the function `moran_wf_walk`, NumPy is required.
+In order to use the function `moran_wf_walk` in `moran_and_wright_fisher_walks.py`, or `star_walk` in `star_walk.py`, NumPy is required.
 
 
 ## Usage ##
 
+In the file `moran_and_wright_fisher_walks.py`,
 `
 moran_wf_walk
 `
 runs either Moran or Wright-Fisher walks in a given fitness landscape.
+
+In the file `star_walk.py`,
+`
+star_walk
+`
+runs either Moran or Wright-Fisher star walks in a given fitness landscape.

@@ -1,5 +1,8 @@
 # fitness-landscapes
 
+Repository for 'Impact of population size on early adaptation in rugged fitness landscapes' (2023) by R. Servajean and A.-F. Bitbol available here: https://royalsocietypublishing.org/doi/full/10.1098/rstb.2022.0045
+and 'Impact of spatial structure on evolution in rugged fitness landscapes' by R. Servajean, A. Alexandre and A.-F. Bitbol (in preparation).
+
 ## Getting started ##
 
 Clone this repository on your local machine by running:
@@ -9,9 +12,14 @@ git clone git@github.com:Bitbol-Lab/fitness-landscapes.git
 ``` 
  
 
-Executing the following line runs a working example:
+Executing the following line runs a working example of the Moran and Wright-Fisher walks:
 ```bash
 python moran_and_wright_fisher_walks.py
+```
+
+Executing the following line runs a working example of the Moran and Wright-Fisher star walks:
+```bash
+python star_walk.py
 ``` 
 
 ## Requirements ##

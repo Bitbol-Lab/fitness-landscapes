@@ -142,8 +142,7 @@ if __name__ == "__main__":
     g_m = 0.01
     C = 20
 
-    rep = 10000
-    moran_or_wf = 'moran' # 'moran' or 'wf' version of the star walk
+    rep = 100 # number of simulations per starting point
 
     # Simulation
     moran_star_simulation = star_walk(landscape, genotype_space, D, alpha, C, g_m, g_wt, L, rep, 'moran')

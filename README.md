@@ -1,7 +1,7 @@
 # fitness-landscapes
 
 Repository for 'Impact of population size on early adaptation in rugged fitness landscapes' (2023) by R. Servajean and A.-F. Bitbol available here: https://royalsocietypublishing.org/doi/full/10.1098/rstb.2022.0045
-and 'Impact of spatial structure on evolution in rugged fitness landscapes' by R. Servajean, A. Alexandre and A.-F. Bitbol (in preparation).
+and 'Impact of spatial structure on early and long-term adaptation in rugged fitness landscapes' by R. Servajean, A. Alexandre and A.-F. Bitbol (in preparation).
 
 ## Getting started ##
 

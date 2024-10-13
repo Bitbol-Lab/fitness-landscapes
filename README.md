@@ -50,4 +50,4 @@ Each landscape is associated with an index (started from 0). The following line 
 landscape_i = pickle.load(open("landscapes.pickle", "rb"))[i]
 ```
 
-Landscapes labelled A and B in both [SER23] and [SER24] correspond to landscapes 9 and 3, respectively.
+Landscapes labelled A and B in both [SER23] and [SER24] correspond to landscapes 9 and 3, respectively. Landscape C in [SER24] corresponds to landscape 142706.

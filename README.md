@@ -59,4 +59,4 @@ landscape = pickle.load(open("landscape_file_name.txt", "rb"))
 
 ## Simulation data ##
 
-Simulation data used in the main figures of [SER24] is available in the folder `data [SER24]`. For figure 4, as indicated in its caption, we performed a first step analysis using the fixation probabilities estimated by running the model from 'Frequent asymmetric migrations suppress natural selection in spatially structured populations' by Abbara and Bitbol (details in the caption).
+Simulation data used in the main figures of [SER24] and [SER23] is available in the folders `data [SER24]` and `data [SER23]`, respectively. For figure 4 of [SER24], as indicated in its caption, we performed a first step analysis using the fixation probabilities estimated by running the model from 'Frequent asymmetric migrations suppress natural selection in spatially structured populations' by Abbara and Bitbol (details in the caption).

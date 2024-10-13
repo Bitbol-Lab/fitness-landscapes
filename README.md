@@ -45,7 +45,9 @@ runs either Moran or Wright-Fisher star walks in a given fitness landscape.
 
 The 200,000 LK landscapes (with L=3 and K=1) used in both [SER23] and [SER24] are stored in a file called `landscapes.pickle` available here: https://drive.google.com/drive/folders/1Er1wZb_FQr2e-NWZU279jvjZxgnWJVWc?usp=sharing
 
-Each landscape is associated with an index (started from 0). The following line in Python allows you to access the ith landscape:
+Each landscape is associated with an index (started from 0). The following line of Python code provides access to the *i*th landscape (as a dictionnary where a key is a sequence and the value is the corresponding fitness):
 ```
 landscape_i = pickle.load(open("landscapes.pickle", "rb"))[i]
-``` 
+```
+
+Landscapes labelled A and B in both [SER23] and [SER24] correspond to landscapes 9 and 3, respectively.

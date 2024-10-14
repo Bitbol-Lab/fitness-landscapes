@@ -1,4 +1,5 @@
-## Information 
+## Information ##
+## We only consider the 2-peak landscapes from the 200,000 landscapes of the file <landscapes.pickle>
 ## (0) size of the basin of attraction of the large peak minus the size of the basin of attraction of the small peak
 4.0
 4.0
